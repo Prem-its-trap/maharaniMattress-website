@@ -4,6 +4,15 @@ html,
 body {
   scroll-behavior: smooth;
 }
+:root {
+  --purple:#A64AC9;
+  --yellow:#FCCD04;
+  --cream:#FFB48F;
+  --silver:#F5E6CC,
+  --cyan:#17E9E0;
+  --white:#fff;
+  --black:#000;
+}
 * {
   margin: 0;
   padding: 0;
@@ -11,47 +20,49 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.active__navItem {
+  border-bottom: 2px solid var(--purple);
+}
+
 .navigation {
   background-color: transparent;
   transition: 0.6s;
-  color: #8d3daf;
+  color: var(--purple);
   padding: 20px 50px;
   justify-content: space-between;
 }
 nav.sticky {
   /* padding: 5px 10px; */
-  background-color: #fff;
+  background-color: var(--white);
   border-bottom: 1px solid (0, 0, 0, 0.1);
   box-shadow: 2px 2px 2px 2px rgb(172, 172, 172);
-  color: orange;
+  color: var(--purple);
 }
 nav.sticky #navbaar {
-  color: #000;
-  transition: 0.6s;
+  color: var(--purple);
+  transition: 0.3s;
 }
 nav.sticky #navbaar:hover {
-  color: orange;
-}
-#navbaar.scrolled {
-  color: #8d3daf;
+  color: var(--yellow);
 }
 #brand {
-  color: #8d3daf;
+  color: var(--purple);
 }
 
 #navbaar {
-  /* color: #ffffff; */
+  color: #ffffff;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   transition: 0.3s;
   text-decoration: none;
   padding: 0 20px;
+  line-height: 50px;
 }
 #navbaar:hover {
+  color: var(--yellow);
   font-weight: 600;
 }
-
-#navbaar::after {
+/* #navbaar::after {
   content: "";
   display: block;
   width: 0;
@@ -62,8 +73,8 @@ nav.sticky #navbaar:hover {
 
 #navbaar:hover::after {
   width: 100%;
-  /* //transition: width .3s; */
-}
+  transition: width 0.3s;
+} */
 
 /* ---------------------------for mobile view----------------------------------------- */
 #mobile-header-top {
@@ -106,10 +117,18 @@ body.offcanvas-active {
   }
   #mobile-header-top {
     visibility: visible;
-    background-color: #8d3daf;
+    background-color: var(--white);
     border-bottom: 1px solid #ececec;
-    color: #8d3daf;
+    color: var(--purple);
     position: fixed;
+    height: 70px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #demo {
+    margin-top: 19vw;
   }
 
   .mobile-offcanvas {
@@ -122,12 +141,38 @@ body.offcanvas-active {
     left: 0;
     height: 100%;
     z-index: 1200;
-    width: 80%;
+    width: 70%;
     overflow-y: scroll;
     overflow-x: hidden;
     transition: visibility 0.2s ease-in-out, transform 0.2s ease-in-out;
     text-align: left;
-    color: #8d3daf;
+    background-color: var(--white);
+  
+  }
+  .navigation {
+    padding: 20px 10px;
+  }
+  #navbaar {
+    color: var(--purple);
+    padding: 10px 5px;
+    font-weight: bolder;
+  }
+  .menu_button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .menu_close_button {
+    background-color: transparent;
+    padding: 20px;
+    border: none;
+    outline: none;
+  }
+  .menu_button:focus {
+    outline: none;
+  }
+  .menu_close_button:focus {
+    outline: none;
   }
 
   .mobile-offcanvas.show {
@@ -142,19 +187,23 @@ body.offcanvas-active {
 .carousel-inner img {
   width: 100%;
   height: 100%;
+
 }
 .carousel-inner .carousel-item {
   height: 48vw;
+  background-size: cover;
+  object-fit: contain;
 }
 .carousel-indicators > li {
   border-radius: 100%;
   height: 10px;
   width: 10px;
-  background-color: #edbb00;
+  background-color: #8d3daf;
 }
 .carousel-caption h2 {
-  font-size: 4vw;
-  color: #edbb00;
+  margin-top: 50px;
+  font-size: 5vw;
+  color: var(--yellow);
   line-height: 40px;
 }
 .carousel-caption h2 span {
@@ -168,21 +217,40 @@ body.offcanvas-active {
   line-height: 60px;
 }
 .carousel-caption a {
-  background-color: #edbb00;
+  border: 2px solid black;
   padding: 10px 25px;
   display: inline-block;
   margin-top: 15px;
-  color: #fff;
+  color: var(--black);
   text-transform: uppercase;
   border-radius: 25px;
   text-decoration: none;
 }
 .carousel-caption a:hover {
-  background-color: white;
-  color: rgb(143, 60, 204);
+  background-color: var(--white);
+  color: var(--black);
   font-weight: bold;
-  border: 1px solid #000;
+  border: 2px solid #000;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
   outline: none;
 }
+
+/* section two practicle csss---------------------------------------------------------- */
+ canvas {
+        display: block;
+        vertical-align: bottom;
+      } /* ---- particles.js container ---- */
+      #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #111111;
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        z-index: -1;
+      
+      }
+/* section two practicle csss---------------------------------------------------------- */

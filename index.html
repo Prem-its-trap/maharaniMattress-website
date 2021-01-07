@@ -6,21 +6,30 @@
     <title>Maharani-Mattress : A Mattress Hub</title>
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <style></style>
   </head>
   <body>
     <header>
       <b class="screen-overlay"></b>
-      <div class="container jumbotron fixed-top" id="mobile-header-top">
+      <div class="fixed-top" id="mobile-header-top">
         <button
           data-trigger="#navbar_main"
-          class="d-lg-none btn btn-warning"
+          class="d-lg-none menu_button"
           type="button"
         >
-          show modal
+          <i class="fa fa-bars"></i>
         </button>
+        Maharani-Mattress
       </div>
 
       <nav
@@ -29,8 +38,8 @@
       >
         <a class="navbar-brand" href="#" id="brand"> Maharani-Mattress </a>
         <div class="offcanvas-header">
-          <button class="btn btn-danger btn-close float-right">
-            &times Close
+          <button class="btn-close float-right menu_close_button">
+            <i class="fa fa-close"></i>
           </button>
           <h5 class="py-2 text-white">
             <a class="" href="#" id="">Maharani <br />Mattress </a>
@@ -39,7 +48,7 @@
         <div class="justify-content-end">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link current" id="navbaar" href="#">HOME</a>
+              <a class="nav-link active__navItem" id="navbaar" href="#">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link current" id="navbaar" href="#">ABOUT</a>
@@ -74,14 +83,14 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="https://technext.github.io/pillowmart/img/banner.png"
+                src="assets/images/mattress.jpg"
                 alt="Los Angeles"
                 width="1000"
                 height="200"
               />
               <div class="carousel-caption">
                 <h2 class="animated bounceInRight" style="animation-delay: 1s">
-                  We are <span>Best</span>
+                  Maharani-Mattress
                 </h2>
                 <h3 class="animated bounceInLeft" style="animation-delay: 2s">
                   Right Choice <span>Fibre Pillow</span>
@@ -93,7 +102,7 @@
             </div>
             <div class="carousel-item">
               <img
-                src="https://technext.github.io/pillowmart/img/single_product_1.png"
+                src="assets/images/hand-on-mattress.jpg"
                 alt="Chicago"
                 width="1000"
                 height="200"
@@ -112,7 +121,7 @@
             </div>
             <div class="carousel-item">
               <img
-                src="https://technext.github.io/pillowmart/img/banner.png"
+                src="assets/images/combo-pillow.png"
                 alt="New York"
                 width="1000"
                 height="200"
@@ -130,25 +139,56 @@
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </a>
           <a class="carousel-control-next" href="#demo" data-slide="next">
             <span class="carousel-control-next-icon"></span>
-          </a>
+          </a> -->
         </div>
       </section>
-      <section style="height: 100vh">prem</section>
+      <section style="height: 100vh" class="about__intro">
+        <div id="particles-js"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <img
+                src="https://media.beam.usnews.com/d1/d8/8501ba714a21aed9a7327e02ade1/180515-10thingselonmusk-editorial.jpg"
+                alt=""
+                height="600"
+                width="550"
+                style="opacity: 0.2"
+              />
+            </div>
+            <div class="col-sm-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              repellat, aliquid libero, quis itaque velit fuga molestiae id
+              possimus, nam consequuntur distinctio quos praesentium? Facere
+              voluptatem atque quo adipisci? Accusamus!
+            </div>
+          </div>
+        </div>
+        <!-- stats - count particles -->
+      </section>
     </main>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- praticle js -->
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="js/scipt.js"></script>
   </body>
 </html>
