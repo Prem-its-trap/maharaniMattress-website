@@ -421,3 +421,25 @@ body.offcanvas-active {
   width: fit-content;
 }
 }
+
+
+/*------------------------------cards container---------------------------------------  */
+
+.home__page__product__list{
+  margin-top: -5px;
+  height: 100vh;
+  background-color: var(--cream);
+ padding: 20px 0; 
+}
+
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.card .card-img-overlay{
+  z-index: 3;
+  color: black;
+  opacity: 1;
+  transform: translateY(30px);
+}
