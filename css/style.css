@@ -301,14 +301,54 @@ body.offcanvas-active {
 }
 .video__title {
   text-align: center;
+  padding: 70px;
 }
-.video__title h2 {
-  color: #121855
+.video__title h1 {
+  color: #121855;
+  font-size: 3.3vw;
+  font-weight: 900;
+}
+.home__page__products {
+  margin: 100px auto;
+}
+.home__page__products__info{
+  align-items: center;
+  padding: 0 10px;
+  margin: 100px 0;
+}
+.home__page__products__info h1 {
+  color: #121855;
+  font-weight: 900;
+}
+.home__page__products__info p {
+  font-size: 1.2rem;
+}
+.home__page__products__info a {
+  background-image: linear-gradient(to left, #fe2246 0%, #fc0f88 70%);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+}
+.home__page__products__info__img {
+  border-radius: 15px;
+}
+.home__page__products__info__img2 {
+  height: 550px;
+  border-radius: 15px;
+}
+
+
+/* boexd block */
+.boxed__block__title{
+  color: #121855;
+  font-weight: 900;
 }
 
 
 
-
+.boxed_block_items{
+  border: 1px solid #cecece;
+}
 
 
 
