@@ -536,164 +536,40 @@ body.offcanvas-active {
 }
 
 
-
 /*  */
-
-
-
-
-
-.about__intro{
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-}
-/* section two practicle csss---------------------------------------------------------- */
- canvas {
-        display: block;
-        vertical-align: bottom;
-      } /* ---- particles.js container ---- */
-      #particles-js {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: #111111;
-        background-image: url("");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
-        z-index: -1;
-      
-      }
-/* section two practicle csss---------------------------------------------------------- */
-
-
-
-
-
-.about_into__container {
-  padding: 100px 0;
-}
-.about__into__text_container {
-  align-items: center;
-  padding: 40px 10px;
-}
-.about__intro__text__container__inner{
-  color: white;
-  display: flex;
-  align-items: center;
-  margin-bottom: 25px;
-}
-.about__intro__text__container__inner span {
-  height: 2px;
-  width: 40px;
-  background-color: var(--yellow);
-}
-.about__intro__text__container__inner p {
-  margin: 3px 0 0 15px;
-}
-.about__into__text_container h2 {
-  color: var(--white);
-  font-weight: 600;
-  font-size: 2.5vw;
-  letter-spacing: 2px;
+.buying__guide  h2, h5{
+  color: #121855;
 }
 
-.about__intro__text{
-  color: gray;
-  padding: 0 30px 50px 0;
-  letter-spacing: 1px;
-  font-size: 1.2vw;
+
+
+
+.footer__section{
+  padding: 50px 0;
 }
-.about__intro__btn > a {
-  text-transform: uppercase;
-  background-color: transparent;
-  color: var(--white);
-  border: 1px solid var(--white);
-  outline: none;
-  padding: 15px 40px;
-  cursor: pointer;
+.icon {
+  padding: 20px 10px;
+  transition: 0.2s ease-in;
+}
+.icon:hover{
+  color: var(--lightpink);
+}
+.links{
+  padding: 20px;
+}
+.links a{
+ padding: 10px 15px;
+  transition: 0.2s ease-in;
   text-decoration: none;
-  transition: color 0.4s linear;
-  position: relative;
+  color: white;
 }
-.about__intro__btn > a:hover {
-  color: var(--black); 
+.links a:hover{
+  color: var(--lightpink);
 }
-.about__intro__btn > a::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--white);
-  z-index: -1;
-  transition: transform 0.5s;
-  transform-origin: 0 0;
-  transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
-  transform: scaleX(0);
+.designer__name {
+  padding: 0;
+  margin-top: -15px;
 }
-.about__intro__btn > a:hover::before{
-  transform: scaleX(1);
-}
-.about__intro__image {
-  height: 430px;
-}
-
-@media screen and (max-width: 768px){
-  .about__intro__image{
-    width: auto;
-  }
-  .about__into__text_container h2{
-    font-size: 32px;
-  }
-  .about__intro__text{
-    font-size: 18px;
-  }
-}
-@media screen and (max-width: 1024px){
-  #particles-js{
-  height: 110%;
-}
-  .about__intro__image{
-    width: 700px;
-    margin-bottom: 20px;
-  }
-  .about__into__text_container h2{
-    font-size: 35px;
-  }
-  .about__intro__text{
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 480px){
-    .about_into__container {
-  padding: 10px 5px;
-}
-#particles-js{
-  height: 110%;
-}
-.about__into__text_container h2 {
-  color: var(--white);
-  font-weight: 600;
-  font-size: 21px;
-  letter-spacing: 2px;
-}
-.about__intro__text{
-  padding: 0 0 22px 0;
-  font-size: 14px;
-  font-weight: 300;
-  word-spacing: 2px;
-  color: #ececec;
-}
-.about__intro__btn > a::before{
- width: 0; 
-}
-.about__intro__image {
-  height: auto;
-  width: fit-content;
-}
+.designer__name span {
+  font-size: 12px;
 }
