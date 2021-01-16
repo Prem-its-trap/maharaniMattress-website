@@ -457,18 +457,16 @@ body.offcanvas-active {
 /* TODO: TESTMIONAL */
 .slider__area{
   background-color:#fbf5f6 ;
-  padding: 50px;
-  margin: 20px;
+  margin: 60px 0;
+  padding: 60px;
+  height: 100%;  
 }
-.testimonial__slider{
-  color: red;
-  height: auto;
-  padding: 0;
-  margin:0;
+#testimonials__item {
+  height: 38vw;
 }
-.img-area{
-  width: 100px;
-  height: 100px;
+.img__area{
+  width: 150px;
+  height: 150px;
   margin: auto;
   border: 2px solid #fff;
   border-radius: 50%;
@@ -477,6 +475,66 @@ body.offcanvas-active {
 .img-area img{
   width: 100%;
 }
+.testimonial__slider{
+  position: static;
+  height: auto;
+  margin:0 auto;
+  padding: 20px 0 -150px 0;
+}
+.testimonial__slider h5{
+  font-size: 26px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: #121855;
+}
+.testimonial__slider p{
+  font-size: 18px;
+  margin: auto;
+  width: 70%;
+  margin-bottom: 10px;
+  color:var(--gray);
+}
+
+.testimonial__slider a {
+  border: none;
+  padding: 10px 50px;
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--white);
+  text-transform: capitalize;
+  border-radius: 15px;
+  background-image: linear-gradient(to left, #fe2246 50%, #fc0f88 50% );
+  text-decoration: none;
+  transition: .2s;
+  background-size: 200%;
+}
+.testimonial__slider a:hover {
+	background-position: right;
+}
+
+@media screen and (max-width:768px){
+ #testimonials__item {
+  height: 70vw;
+}
+}
+
+@media screen and (max-width:480px){
+ #testimonials__item {
+  height: 140vw;
+}
+.testimonial__slider p{
+  font-size: 12px;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  color:var(--gray);
+}
+.testimonial__slider a {
+  font-size: 12px;
+}
+}
+
 
 
 /*  */
