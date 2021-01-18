@@ -573,3 +573,23 @@ body.offcanvas-active {
 .designer__name span {
   font-size: 12px;
 }
+
+
+/* ----------------------media queries ----------------------------- */
+@media screen and (max-width:480px){
+.boxed__block__title {
+    color: #121855;
+    font-weight: 900;
+    margin: 0 0 40px 0;
+    font-size: 28px;
+}
+.boxed__block__items__content h2 {
+    color: var(--darkpink);
+    font-size: 35px;
+    margin: 20px 0;
+}
+.buying__guide h2{
+  font-size: 28px;
+  font-weight: 900;
+}
+}
