@@ -32,6 +32,8 @@ body {
   color: var(--navblack);
   padding: 20px 70px;
   justify-content: space-between;
+  border-bottom: 1px solid #ececec;
+  box-shadow: 1px 2px 2px #ececec;
 }
 nav.sticky {
   /* padding: 5px 10px; */
@@ -184,20 +186,91 @@ body.offcanvas-active {
 }
 
 .about__header{
-        height: 50vh;
+        height: 60vh;
         background-repeat: no-repeat;
         background-size: cover;
-        z-index: 1;
+        z-index: 0;
+        background-attachment: fixed;
 }
-.about__header::after{
-    position: absolute;
-    content: "";
-    display: block;
-    width: 100%;
-    height: 50vh;
-    left: 0;
-    top: 80px;
-    opacity: 0.8;
-    background: #fe2246;
-    z-index: 99;
+.aboutus__layer{
+    background-color: #fc0f88;
+              height: 60vh;
+              opacity: 0.8;
+              z-index: 2;
+}
+.aboutus__layered__text {
+    z-index: 5;
+   padding-top: 12%
+}
+.aboutus__layered__text h1 {
+  font-weight: 900;
+}
+.aboutus__layered__text a {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.aboutus__layered__text a:hover {
+  text-decoration: none;
+  color: #121855;
+}
+.main__body{
+  height: 100vh;
+  width: 100%;
+  margin: 0%;
+  padding: 8% 0;
+}
+.main__body__est__text{
+  display: flex;
+  align-items: center;
+}
+.main__body__est__text span{
+  display: inline-block;
+  background-color: #121855;
+  width: 35px;
+  height: 4px;
+}
+.main__body__est__text h4{
+  color: #121855;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 7px 0 0 0;
+}
+.main__body__title{
+  padding: 25px 0;
+}
+.main__body__title h1{
+  color: #121855;
+  font-size: 36px;
+  font-weight: 900;
+}
+.main__body__about__details p {
+  color: var(--gray);
+}
+.aboutus__right{
+}
+.aboutus__right h2 {
+  color: #121855;
+  font-weight: 800;
+  font-size: 25px;
+}
+.aboutus__right__img{
+  padding: 20px 10px;
+  overflow: hidden;
+  border-radius: 10px;
+ 
+}
+.aboutus__right__img img {
+  border-radius: 10px;
+  box-shadow: 1px 5px 5px #ececec;
+  box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
+-webkit-box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
+-moz-box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
+  transition: 0.3s ease-in-out;
+
+}
+.aboutus__right__img img:hover {
+  transform: scale(1.2);
+  overflow: hidden;
+  
 }
