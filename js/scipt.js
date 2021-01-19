@@ -32,7 +32,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 500) {
+    if ($(this).scrollTop() > 200) {
       $("#scroll__up__button").fadeIn();
     } else {
       $("#scroll__up__button").fadeOut();

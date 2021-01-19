@@ -185,6 +185,7 @@ body.offcanvas-active {
   }
 }
 
+
 .about__header{
         height: 60vh;
         background-repeat: no-repeat;
@@ -214,210 +215,21 @@ body.offcanvas-active {
   text-decoration: none;
   color: #121855;
 }
-.main__body{
-  height: 100%;
-  width: 100%;
-  margin: 0%;
-  padding: 8% 0;
-}
-.main__body__est__text{
-  display: flex;
-  align-items: center;
-}
-.main__body__est__text span{
-  display: inline-block;
-  background-color: #121855;
-  width: 35px;
-  height: 4px;
-}
-.main__body__est__text h4{
-  color: #121855;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 7px 0 0 0;
-}
-.main__body__title{
-  padding: 25px 0;
-}
-.main__body__title h1{
-  color: #121855;
-  font-size: 36px;
-  font-weight: 900;
-}
-.main__body__about__details p {
-  color: var(--gray);
-}
-/* .aboutus__right{
-} */
-.aboutus__right h2 {
-  color: #121855;
-  font-weight: 800;
-  font-size: 25px;
-}
-.aboutus__right__img{
-  padding: 20px 10px;
-  overflow: hidden;
-  border-radius: 10px;
- 
-}
-.aboutus__right__img img {
-  border-radius: 10px;
-  box-shadow: 1px 5px 5px #ececec;
-  box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
--webkit-box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
--moz-box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
-  transition: 0.3s ease-in-out;
-}
-.aboutus__right__img img:hover {
-  transform: scale(1.2);
-  overflow: hidden;
-  
-}
-.growth__img{
-   padding: 20px 10px;
-  overflow: hidden;
-  border-radius: 10px;
-}
-.growth__img  img {
-  border-radius: 10px;
-  box-shadow: 1px 5px 5px #ececec;
-  box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
--webkit-box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
--moz-box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
-  transition: 0.3s ease-in-out;
-}
-.growth__text{
-   padding: 20px 10px;
-}
-.growth__text h2{
-  color: #121855;
-  font-weight: 800;
-}
-.growth__text h5{
-  color: #121855;
-  font-weight: 700;
-}
-.growth__text h6{
-  color: #121855;
-  font-weight:600;
-}
-.growth__text p{
-  color: var(--gray)
-}
-.breadcrumb{
-    margin-bottom: 0px;
-    background-color: var(--white);
-}
-.breadcrumb .col-sm-4{
-     padding: 30px;
-     text-align:center;
-}
 
-.second{
-  background-color: #ececec;
-  margin-top: 100px;
+.services_block1{
+        height: 100vh;
 }
-.breadcrumb .col-sm-4 p{
-    font-family: sans-serif;
-    font-size: 15px;
-    color: grey;
+.service__block__details{
+        padding: 100px 0;
 }
-.breadcrumb .col-sm-4 h2{
-    font-family: sans-serif;
-    font-size: 25px;
+.tagline h4{
+        color: #121855;
+        font-weight: 900;
+        font-size: 26px;
+        word-spacing: 1px;
+        padding: 20px 0;
 }
-
-
-.footer__section{
-  padding: 50px 0;
-}
-.icon {
-  padding: 20px 10px;
-  transition: 0.2s ease-in;
-}
-.icon:hover{
-  color: var(--lightpink);
-}
-.links{
-  padding: 20px;
-}
-.links a{
- padding: 10px 15px;
-  transition: 0.2s ease-in;
-  text-decoration: none;
-  color: white;
-}
-.links a:hover{
-  color: var(--lightpink);
-}
-.designer__name {
-  padding: 0;
-  margin-top: -15px;
-}
-.designer__name span {
-  font-size: 12px;
-}
-#scroll__up__button{
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    background-color:var(--lightpink);
-    height:50px;
-    width: 50px;
-    font-size: 22px;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    display: none;
-    transition: 0.3s ease-in-out;
-}
-#scroll__up__button:focus{
-        outline: none;
-        border: none;
-}
-#scroll__up__button:hover{
-    background-color:var(--darkpink);
-
-}
-
-
-/* -------------------media queries-------------------------- */
-@media screen and (max-width:480px){
-  .aboutus__layered__text {
-    z-index: 5;
-    padding-top: 40%;
-  }
-  .main__body__title h1 {
-    color: #121855;
-    font-size: 24px;
-    font-weight: 900;
-  }
-  .aboutus__right h2 {
-    color: #121855;
-    font-weight: 800;
-    font-size: 24px;
-    padding: 20px 15px;
-}
-.growth__text h5 {
-    color: #121855;
-    font-weight: 700;
-    font-size: 22px;
-}
-.first{
-  border: 1px solid #ececec;
-}
-.second {
-    background-color: #ececec;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.third{
-  border: 1px solid #ececec;
-}
-}
-@media screen and (max-width:768px){
-   .aboutus__layered__text {
-    z-index: 5;
-    padding-top: 41%;
-  }
+.tagline_details p {
+        color: var(--gray);
+        text-align: left;
 }

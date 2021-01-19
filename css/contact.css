@@ -287,12 +287,16 @@ body.offcanvas-active {
     border: none;
     border-radius: 50%;
     display: none;
+    transition: 0.3s ease-in-out;
 }
 #scroll__up__button:focus{
         outline: none;
         border: none;
 }
+#scroll__up__button:hover{
+    background-color:var(--darkpink);
 
+}
 
 @media screen and (max-width:480px){
   .aboutus__layered__text {
