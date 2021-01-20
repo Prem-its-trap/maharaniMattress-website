@@ -215,112 +215,15 @@ body.offcanvas-active {
   text-decoration: none;
   color: #121855;
 }
-.services__img__container{
-  padding: 70px 0 50px 0;
+.mattress_by_size{
+        margin-top: 50px;
+        margin-bottom: 30px;
 }
-
-.services_block1{
-        height: 100%;
-}
-.service__block__details{
-        padding: 100px 0;
-        text-align: center;
-}
-.tagline h4{
+.mattress_by_size h2 {
         color: #121855;
-        font-weight: 900;
-        font-size: 26px;
-        word-spacing: 1px;
-        padding: 20px 0;
+        font-weight: 800;
+        margin-bottom: 60px;
 }
-.tagline_details p {
-        color: var(--gray);
-        text-align: left;
-}
-
-.services__img{
-   padding: 20px 10px;
-  overflow: hidden;
-  border-radius: 10px;
-}
-.services__img  img {
-  border-radius: 10px;
-  box-shadow: 1px 5px 5px #ececec;
-  box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
--webkit-box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
--moz-box-shadow: 9px 10px 12px -6px rgba(110,53,104,0.75);
-  transition: 0.3s ease-in-out;
-}
-
-.services__img img:hover{
-  transform: scale(1.2);
-  overflow: hidden;
-}
-.duty_free_shop {
-  margin: 0 0 70px 0;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: right;  
-  background-attachment: fixed;
-}
-.overlayy_block{
-  background-color: #fc0f88;
-  opacity: 0.8;
-  z-index: 5;
-  height: 100%;
-  padding: 50px 0;
-}
-.heading h1{
-  color: white;
-  font-weight: 900;
-  margin-bottom: 50px;
-}
-.icon_services{
-  width: 130px;
-  height: 130px;
-  border: 4px solid white;
-  border-radius: 50%;
-  padding: 45px 10px;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.icon_services i {
-  color: white;
-  font-weight: 900;
-}
-.icon_text{
-  color: white;
-  font-weight: 800;
-  font-size: 25px;
-}
-
-/*  */
-.services_offered{
-  height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-.animated_services_header{
-  margin-bottom: 55px;
-}
-.animated_services_header h1 {
-  color: #121855;
-  font-weight: 700;
-}
-.animated_services h2 {
-  color: #121855;
-  font-weight: 600;
-  font-size: 20px;
-}
-.animated_services p{
-  color: var(--gray);
-}
-
-/* footer */
-
 .footer__section{
   padding: 50px 0;
 }
@@ -373,18 +276,15 @@ body.offcanvas-active {
         border: none;
 }
 
-/*  */
 @media screen and (max-width:480px){
          .aboutus__layered__text {
     z-index: 5;
     padding-top: 40%;
   }
-  .service__block__details {
-    padding: 100px 0 0 0;
-    text-align: center;
 }
-.tagline_details p {
-    color: var(--gray);
-    text-align: justify;
-}
+@media screen and (max-width:768px){
+   .aboutus__layered__text {
+    z-index: 5;
+    padding-top: 40%;
+  }
 }
