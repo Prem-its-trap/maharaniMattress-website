@@ -301,17 +301,24 @@ body.offcanvas-active {
 
  /* TODO: VIDEO SECTION STARTS HERE */
 .video__section{
-  height: 100vh;
+  height: 100%;
   background-color: #fbf5f6;
 }
 .video__title {
   text-align: center;
-  padding: 70px;
+  padding: 50px 0 0 0;
+}
+.video_container{
+  overflow: hidden;
 }
 .video__title h1 {
   color: #121855;
-  font-size: 3.3vw;
+  font-size: 45px;
   font-weight: 900;
+}
+.video__title p {
+  color: var(--gray);
+  font-size: 18px;
 }
 .home__page__products {
   margin: 100px auto;
@@ -387,8 +394,15 @@ body.offcanvas-active {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+.video__title h1{
+  font-size: 24px;
+}
+.video__title p{
+  font-size: 14px;
+}
 }
 @media screen and (max-width:767px){
+ 
   .home__page__products {
   margin: 30px auto;
 }
@@ -415,6 +429,7 @@ body.offcanvas-active {
   font-size: 14px;
   padding-bottom: 20px;
 }
+
 }
 
 
@@ -614,8 +629,15 @@ body.offcanvas-active {
   padding: 0;
   margin-top: -15px;
 }
-.designer__name span {
+.designer__name span a {
   font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+.designer__name span a:hover {
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--lightpink);
 }
 #scroll__up__button{
     position: fixed;
@@ -638,6 +660,9 @@ body.offcanvas-active {
 #scroll__up__button:hover{
     background-color:var(--darkpink);
 
+}
+.social__media__icons a{
+  color: white;
 }
 
 

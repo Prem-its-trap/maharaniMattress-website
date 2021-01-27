@@ -403,19 +403,21 @@ body.offcanvas-active {
   display: inline-block;
 }
 
-
-
-@media screen and (max-width: 480px){
-    .nav-pills .nav-item
-    {
-        margin:0;
-        padding: 0 5px;
-        position: relative;
-        left: 5%;
-    }
-.nav-pills .nav-item a{
-    border-bottom: 0.5px solid #fe2246;
+.social__media__icons a{
+  color: white;
 }
+.designer__name span a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+.designer__name span a:hover {
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--lightpink);
+}
+@media screen and (max-width: 480px){
+  
  .aboutus__layered__text {
     z-index: 5;
     padding-top: 40%;
@@ -426,17 +428,6 @@ body.offcanvas-active {
  width: 100%;
  margin: 10px 0;
 }
-.nav-pills .nav-item a{
-    background-color: rgb(0,0,0,0.1);
-    padding: 10px 10px;
-    font-size: 12px;
-    color: #222;
-    margin: 0px 0;
-    font-weight:600;
-    letter-spacing: 1px;
-    width: 120px;
-    text-align: center;
-    border-radius: 5px 5px 0 0;
-}
+
 
 }

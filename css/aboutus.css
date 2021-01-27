@@ -379,6 +379,19 @@ body.offcanvas-active {
     background-color:var(--darkpink);
 
 }
+.social__media__icons a{
+  color: white;
+}
+.designer__name span a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+.designer__name span a:hover {
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--lightpink);
+}
 
 
 /* -------------------media queries-------------------------- */

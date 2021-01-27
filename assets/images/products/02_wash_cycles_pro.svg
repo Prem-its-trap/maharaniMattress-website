@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="114" viewBox="0 0 114 114">
+  <g id="_02_wash_cycles" data-name="02_wash_cycles" transform="translate(-1181 -262)">
+    <rect id="Rectangle_26" data-name="Rectangle 26" width="114" height="114" transform="translate(1181 262)" fill="none"/>
+    <g id="Group_35" data-name="Group 35" transform="translate(8.378 -432.654)">
+      <path id="Path_180" data-name="Path 180" d="M1263.7,800.663h-72.151a.924.924,0,0,1-.925-.924v-96.16a.924.924,0,0,1,.925-.925H1263.7a.925.925,0,0,1,.925.925v96.16A.924.924,0,0,1,1263.7,800.663Zm-71.226-1.849h70.3V704.5h-70.3Z"/>
+      <path id="Path_181" data-name="Path 181" d="M1263.32,725.065h-70.927a.925.925,0,1,1,0-1.849h70.927a.925.925,0,1,1,0,1.849Z" transform="translate(-0.064 -1.552)"/>
+      <path id="Path_182" data-name="Path 182" d="M1227.58,796.122a30.409,30.409,0,0,1-14.368-57.208l-6.763-1.652a.925.925,0,1,1,.438-1.8l9.267,2.264a.925.925,0,0,1,.146,1.748,28.553,28.553,0,1,0,19.773-1.032.925.925,0,1,1,.548-1.766,30.409,30.409,0,0,1-9.041,59.441Z" transform="translate(-0.495 -2.474)"/>
+      <path id="Path_183" data-name="Path 183" d="M1269.586,800.663a.924.924,0,0,1-.029-1.848l7.152-.226.156-87.49-7.885-6.822a.924.924,0,0,1,1.21-1.4l8.2,7.1a.924.924,0,0,1,.32.7l-.159,88.807a.925.925,0,0,1-.9.922l-8.045.253Z" transform="translate(-5.889 0)"/>
+      <path id="Path_184" data-name="Path 184" d="M1210.356,717.78h-7.94a.924.924,0,0,1-.925-.924v-4.275a.924.924,0,0,1,.925-.925h7.94a.925.925,0,0,1,.924.925v4.275A.924.924,0,0,1,1210.356,717.78Zm-7.015-1.849h6.091v-2.426h-6.091Z" transform="translate(-0.82 -0.679)"/>
+      <path id="Path_185" data-name="Path 185" d="M1215.8,748.729a.962.962,0,0,1-.211-.024.923.923,0,0,1-.691-1.109l1.875-8.046a.925.925,0,0,1,1.8.42l-1.876,8.045A.923.923,0,0,1,1215.8,748.729Z" transform="translate(-1.831 -2.73)"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="3.082" cy="3.082" r="3.082" transform="translate(1251.152 730.909)" fill="#8800c2" stroke="#8700c1" stroke-miterlimit="10" stroke-width="0.75"/>
+      <text id="_30" data-name="30" transform="translate(1209.267 776.829)" fill="#8800c2" stroke="#8700c1" stroke-miterlimit="10" stroke-width="0.75" font-size="36" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">30</tspan></text>
+    </g>
+  </g>
+</svg>

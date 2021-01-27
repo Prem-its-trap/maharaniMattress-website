@@ -297,6 +297,21 @@ body.offcanvas-active {
     background-color:var(--darkpink);
 
 }
+.social__media__icons a{
+  color: white;
+}.social__media__icons a{
+  color: white;
+}
+.designer__name span a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+.designer__name span a:hover {
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--lightpink);
+}
 
 @media screen and (max-width:480px){
   .aboutus__layered__text {

@@ -15,6 +15,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="css/pillow.css" />
   </head>
   <body>
@@ -34,7 +38,15 @@
         id="navbar_main"
         class="mobile-offcanvas navbar navbar-expand-lg fixed-top navigation"
       >
-        <a class="navbar-brand" href="#" id="brand"> Maharani-Mattress </a>
+        <a class="navbar-brand" href="#" id="brand"
+          ><img
+            src="assets/logo/nlogo.png"
+            height="20"
+            width="370"
+            class="img-fluid"
+            alt=""
+          />
+        </a>
         <div class="offcanvas-header">
           <button class="btn-close float-right menu_close_button">
             <i class="fa fa-close"></i>
@@ -96,7 +108,9 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-6">
-              <div class="twin_size_product_img">
+              <div
+                class="twin_size_product_img wow animate__animated animate__zoomIn"
+              >
                 <img
                   src="assets/images/products/pilow.jpg"
                   alt=""
@@ -116,6 +130,14 @@
                   comfort, therapy, or decoration. Pillows are used by many
                   species, including humans. Some types of pillows include throw
                   pillows, body pillows, decorative pillows.
+                  <br />
+                  Sleepless nights ruining your day? Then, you need to change
+                  your sleeping environment or else it may get even worse.
+                  Waking up fresh and energetic is a dream for many, Not for you
+                  anymore. Because you have Maharani Pillow to end all the sleep
+                  struggles you are going through every night. Maharani
+                  microfiber pillow is an economy range product that perfectly
+                  adapts to your sleeping style.
                 </p>
               </div>
             </div>
@@ -135,11 +157,24 @@
                   to a variety of textures and sizes to suit your style. Stock
                   up on some of the best sellers, or continue your home shop by
                   taking a look at our latest collection.
+                  <br />
+                  Feeling uncomfortable to sit on a sofa? Want to hug a cushion
+                  and have a peaceful sleep? Then, you definitely need Maharani
+                  White Fillers. Take a perfect pillow cover and put this white
+                  filler in. Your home decor is stunning and beautiful. It’s
+                  normal to feel tired after working for hours in your office.
+                  Make yourself comfortable by having this White Cushion with
+                  you.<br />
+                  So many people have back pain nowadays due to their hectic
+                  work schedule. This cushion comes in handy when you want to
+                  support your spine and work for long hours without pain.
                 </p>
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="twin_size_product_img">
+              <div
+                class="twin_size_product_img wow animate__animated animate__zoomIn"
+              >
                 <img
                   src="assets/images/products/throw_pillow.jpg"
                   alt=""
@@ -167,23 +202,38 @@
         <div class="container-fluid footer__section text-center">
           <a><h2>lOGO</h2></a>
           <div class="social__media__icons">
-            <i class="fa fa-facebook icon"></i>
-            <i class="fa fa-instagram icon"></i>
-            <i class="fa fa-twitter icon"></i>
-            <i class="fa fa-linkedin icon"></i>
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fa fa-facebook icon"></i
+            ></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fa fa-instagram icon"></i
+            ></a>
+            <a href="https://www.twitter.com" target="_blank"
+              ><i class="fa fa-twitter icon"></i
+            ></a>
+            <a href="https://www.linkedin.com" target="_blank"
+              ><i class="fa fa-linkedin icon"></i
+            ></a>
           </div>
           <div class="links">
-            <a href="">Home</a>
-            <a href="">About us</a>
-            <a href="">Products</a>
-            <a href="">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About us</a>
+            <a href="products.html">Products</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
           </div>
           <div class="copyrights">
             <p>copyright © 2019 || All rights reserved, Maharani-Mattress</p>
           </div>
           <hr width="" color="silver" />
           <div class="designer__name">
-            <span>Designed by Prem</span>
+            <span
+              ><a
+                href="https://www.linkedin.com/in/prem-bhati-981a33193"
+                target="_blank"
+                >Designed by Prem</a
+              ></span
+            >
           </div>
         </div>
       </section>
@@ -214,5 +264,9 @@
     ></script>
 
     <script src="js/scipt.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

@@ -15,6 +15,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script
       src="https://kit.fontawesome.com/83f2e4dcb4.js"
       crossorigin="anonymous"
@@ -38,7 +42,15 @@
         id="navbar_main"
         class="mobile-offcanvas navbar navbar-expand-lg fixed-top navigation"
       >
-        <a class="navbar-brand" href="#" id="brand"> Maharani-Mattress </a>
+        <a class="navbar-brand" href="#" id="brand"
+          ><img
+            src="assets/logo/nlogo.png"
+            height="20"
+            width="370"
+            class="img-fluid"
+            alt=""
+          />
+        </a>
         <div class="offcanvas-header">
           <button class="btn-close float-right menu_close_button">
             <i class="fa fa-close"></i>
@@ -121,7 +133,9 @@
               <div class="services__img__container">
                 <div class="row">
                   <div class="col-sm-6">
-                    <div class="services__img">
+                    <div
+                      class="services__img animate__animated animate__zoomIn"
+                    >
                       <img
                         src="assets/images/services/sleep.jpg"
                         class="img-fluid"
@@ -130,7 +144,9 @@
                     </div>
                   </div>
                   <div class="col-sm-6">
-                    <div class="services__img">
+                    <div
+                      class="services__img animate__animated animate__zoomIn animate__delay-1s"
+                    >
                       <img
                         src="assets/images/services/Home-image-4.jpg"
                         class="img-fluid"
@@ -142,7 +158,9 @@
                 <br />
                 <div class="row">
                   <div class="col-sm-6">
-                    <div class="services__img">
+                    <div
+                      class="services__img animate__animated animate__zoomIn animate__delay-2s"
+                    >
                       <img
                         src="assets/images/services/serv.jpg"
                         class="img-fluid"
@@ -151,7 +169,9 @@
                     </div>
                   </div>
                   <div class="col-sm-6">
-                    <div class="services__img">
+                    <div
+                      class="services__img animate__animated animate__zoomIn animate__delay-3s"
+                    >
                       <img
                         src="assets/images/services/serv-1jpg.jpg"
                         class="img-fluid"
@@ -226,7 +246,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-8">
-              <div class="services__img">
+              <div class="services__img wow animate__animated animate__zoomIn">
                 <img
                   src="assets/images/services/serv-5.jpg"
                   alt=""
@@ -237,7 +257,9 @@
             <div class="col-sm-4">
               <div class="row">
                 <div class="col-sm-12">
-                  <div class="services__img">
+                  <div
+                    class="services__img wow animate__animated animate__zoomIn animate__delay-1s"
+                  >
                     <img
                       src="assets/images/services/serv-6.jpg"
                       class="img-fluid"
@@ -248,7 +270,9 @@
               </div>
               <div class="row">
                 <div class="col-sm-12">
-                  <div class="services__img">
+                  <div
+                    class="services__img wow animate__animated animate__zoomIn animate__delay-1s"
+                  >
                     <img
                       src="assets/images/services/serv-7.jpg"
                       class="img-fluid"
@@ -363,23 +387,38 @@
         <div class="container-fluid footer__section text-center">
           <a><h2>lOGO</h2></a>
           <div class="social__media__icons">
-            <i class="fa fa-facebook icon"></i>
-            <i class="fa fa-instagram icon"></i>
-            <i class="fa fa-twitter icon"></i>
-            <i class="fa fa-linkedin icon"></i>
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fa fa-facebook icon"></i
+            ></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fa fa-instagram icon"></i
+            ></a>
+            <a href="https://www.twitter.com" target="_blank"
+              ><i class="fa fa-twitter icon"></i
+            ></a>
+            <a href="https://www.linkedin.com" target="_blank"
+              ><i class="fa fa-linkedin icon"></i
+            ></a>
           </div>
           <div class="links">
-            <a href="">Home</a>
-            <a href="">About us</a>
-            <a href="">Products</a>
-            <a href="">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About us</a>
+            <a href="products.html">Products</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
           </div>
           <div class="copyrights">
             <p>copyright © 2019 || All rights reserved, Maharani-Mattress</p>
           </div>
           <hr width="" color="silver" />
           <div class="designer__name">
-            <span>Designed by Prem</span>
+            <span
+              ><a
+                href="https://www.linkedin.com/in/prem-bhati-981a33193"
+                target="_blank"
+                >Designed by Prem</a
+              ></span
+            >
           </div>
         </div>
       </section>
@@ -410,5 +449,9 @@
     ></script>
 
     <script src="js/scipt.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
