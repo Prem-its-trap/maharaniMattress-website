@@ -217,7 +217,7 @@ body.offcanvas-active {
 .twin_size_price{
  display: flex;
  justify-content: space-between;
- width: 50%;
+ width: 100%;
  margin: 10px 0;
 }
 .twin_size_price label{
@@ -229,6 +229,7 @@ body.offcanvas-active {
   color: var(--darkpink);
   font-size: 16px;
   font-weight: 500;
+  width: 150px;
 }
 .twin_size_price a {
   text-decoration: none;
@@ -408,6 +409,12 @@ body.offcanvas-active {
   font-size: 12px;
   text-decoration: none;
   color: var(--lightpink);
+}
+.twin_size_title h2{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  border-bottom: 3px solid var(--lightpink);
+  display: inline-block;
 }
 
 @media screen and (max-width: 480px){
