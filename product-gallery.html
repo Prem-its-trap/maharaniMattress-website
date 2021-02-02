@@ -4,26 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <link rel="icon" href="assets/logo/logoo.png" />
-
-    <title>Products: Maharani-Mattress</title>
+    <title>Product Gallery</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link rel="stylesheet" href="css/products.css" />
+    <link rel="stylesheet" href="css/product-gallery.css" />
   </head>
   <body>
+    <!-- header -->
     <header>
       <b class="screen-overlay"></b>
       <div class="fixed-top" id="mobile-header-top">
@@ -40,15 +39,7 @@
         id="navbar_main"
         class="mobile-offcanvas navbar navbar-expand-lg fixed-top navigation"
       >
-        <a class="navbar-brand" href="#" id="brand"
-          ><img
-            src="assets/logo/logoo.png"
-            height="20"
-            width="80"
-            class="img-fluid"
-            alt=""
-          />
-        </a>
+        <a class="navbar-brand" href="#" id="brand"><img src="assets/logo/logoo.png" height="20" width="80" class="img-fluid" alt=""> </a>
         <div class="offcanvas-header">
           <button class="btn-close float-right menu_close_button">
             <i class="fa fa-close"></i>
@@ -67,18 +58,18 @@
               <a class="nav-link navbaar" href="aboutus.html">ABOUT</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link navbaar" href="mattressByModal.html"
+                >MATTRESS</a
+              >
+            </li>
+            <li class="nav-item">
               <a class="nav-link navbaar" id="active__navItem" href="#"
-                >PRODUCTS</a
+                >GALLERY</a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link navbaar" id="" href="services.html"
                 >SERVICES</a
-              >
-            </li>
-             <li class="nav-item">
-              <a class="nav-link navbaar" href="product-gallery.html"
-                >GALLERY</a
               >
             </li>
             <li class="nav-item">
@@ -88,8 +79,7 @@
         </div>
       </nav>
     </header>
-    <main>
-      <section>
+<section>
         <div
           class="about__header"
           style="
@@ -100,85 +90,139 @@
             <div
               class="container text-center text-white aboutus__layered__text"
             >
-              <h1>Our Products</h1>
-              <p><a href="index.html">Home</a><span> / Products</span></p>
+              <h1>Product Gallery</h1>
+              <p>
+                <a href="index.html">Home</a
+                ><span> / Gallery</span>
+              </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="products">
-        <div class="container-fluid">
-          <div class="row">
-            <div
-              class="col-sm-3 col-md-6 col-lg-3 animate__animated animate__zoomIn"
+    <!-- body -->
+    <div class="container gallery-container">
+
+        
+      <div class="tz-gallery">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <a
+              class="lightbox"
+              href="assets/images/services/serv-5.jpg"
+              class=""
             >
-              <div class="card" style="width: 18rem">
-                <img
-                  class="card-img-top"
-                  src="assets/images/products/mattress.jpg"
-                  alt="Card image cap"
-                  height="250"
-                />
-                <div class="card-body text-center">
-                  <h5 class="card-title">Mattress</h5>
-                  <a href="mattressByModal.html" class="view__all__btn"
-                    >More Info</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-3 col-md-6 col-lg-3 animate__animated animate__zoomIn animate__delay-1s"
+              <img
+                src="assets/images/services/serv-5.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a
+              class="lightbox"
+              href="assets/images/services/serv-6.jpg"
+              class="img-fluid"
             >
-              <div class="card" style="width: 18rem">
-                <img
-                  class="card-img-top"
-                  src="assets/images/products/pilow.jpg"
-                  alt="Card image cap"
-                  height="250"
-                />
-                <div class="card-body text-center">
-                  <h5 class="card-title">Pillow</h5>
-                  <a href="pillow.html" class="view__all__btn">More Info</a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-3 col-md-6 col-lg-3 animate__animated animate__zoomIn animate__delay-2s"
+              <img
+                src="assets/images/services/serv-6.jpg"
+                class="img-fluid"
+                alt="Park"
+              />
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a
+              class="lightbox"
+              href="assets/images/services/serv-7.jpg"
+              class="img-fluid"
             >
-              <div class="card" style="width: 18rem">
-                <img
-                  class="card-img-top"
-                  src="assets/images/products/Slide-1.jpg"
-                  alt="Card image cap"
-                  height="250"
-                />
-                <div class="card-body text-center">
-                  <h5 class="card-title">Mattress cover & Protector</h5>
-                  <a href="protector.html" class="view__all__btn">More Info</a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-3 col-md-6 col-lg-3 animate__animated animate__zoomIn animate__delay-3s"
+              <img
+                src="assets/images/services/serv-7.jpg"
+                class="img-fluid"
+                alt="Park"
+              />
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a
+              class="lightbox"
+              href="assets/images/services/sleep.jpg"
+              class="img-fluid"
             >
-              <div class="card" style="width: 18rem">
-                <img
-                  class="card-img-top"
-                  src="assets/images/products/foam-sheet.png"
-                  alt="Card image cap"
-                  height="250"
-                />
-                <div class="card-body text-center">
-                  <h5 class="card-title">Foam-sheet</h5>
-                  <a href="foam-sheet.html" class="view__all__btn">More Info</a>
-                </div>
-              </div>
-            </div>
+              <img
+                src="assets/images/services/sleep.jpg"
+                class="img-fluid"
+                alt="Park"
+              />
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a
+              class="lightbox"
+              href="assets/images/services/Home-image-4.jpg"
+              class="img-fluid"
+            >
+              <img
+                src="assets/images/services/Home-image-4.jpg"
+                class="img-fluid"
+                alt="Park"
+              />
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a
+              class="lightbox"
+              href="assets/images/services/serv.jpg"
+              class="img-fluid"
+            >
+              <img
+                src="assets/images/services/serv.jpg"
+                class="img-fluid"
+                alt="Park"
+              />
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a
+              class="lightbox"
+              href="assets/gallery/modal_for_gallery.jpg"
+              class="img-fluid"
+            >
+              <img
+                src="assets/gallery/modal_for_gallery.jpg"
+                class="img-fluid"
+                alt="Park"
+              />
+            </a>
+          </div><div class="col-sm-6 col-md-4">
+            <a
+              class="lightbox"
+              href="assets/gallery/modle-2.jpg"
+              class="img-fluid"
+            >
+              <img
+                src="assets/gallery/modle-2.jpg"
+                class="img-fluid"
+                alt="Park"
+              />
+            </a>
+          </div><div class="col-sm-6 col-md-4">
+            <a
+              class="lightbox"
+              href="assets/images/home-slider-images/serv-58a2c.jpg"
+              class="img-fluid"
+            >
+              <img
+                src="assets/images/home-slider-images/serv-58a2c.jpg"
+                class="img-fluid"
+                alt="Park"
+              />
+            </a>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </div>
     <footer>
       <section
         class="footer"
@@ -195,7 +239,7 @@
         <div class="container-fluid footer__section text-center">
           <a><h2>lOGO</h2></a>
           <div class="social__media__icons">
-            <a href="https://www.facebook.com" target="_blank"
+          <a href="https://www.facebook.com" target="_blank"
               ><i class="fa fa-facebook icon"></i
             ></a>
             <a href="https://www.instagram.com" target="_blank"
@@ -209,7 +253,7 @@
             ></a>
           </div>
           <div class="links">
-            <a href="index.html">Home</a>
+             <a href="index.html">Home</a>
             <a href="aboutus.html">About us</a>
             <a href="products.html">Products</a>
             <a href="services.html">Services</a>
@@ -222,13 +266,7 @@
           </div>
           <hr width="" color="silver" />
           <div class="designer__name">
-            <span
-              ><a
-                href="https://www.linkedin.com/in/prem-bhati-981a33193"
-                target="_blank"
-                >Designed by Prem</a
-              ></span
-            >
+            <span><a href="https://www.linkedin.com/in/prem-bhati-981a33193" target="_blank">Designed by Prem</a></span>
           </div>
         </div>
       </section>
@@ -236,6 +274,12 @@
         <i class="fa fa-arrow-up"></i>
       </button>
     </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run(".tz-gallery");
+    </script>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -259,9 +303,5 @@
     ></script>
 
     <script src="js/scipt.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
   </body>
 </html>
